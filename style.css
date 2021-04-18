@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.cv{
+    display: flex;
+    height: auto;
+}
+div left{
+    background-color: whitesmoke;
+}
+.left{
+    height: 100%;
+    width: 500px;
+    border:2px black;
+    background-color: whitesmoke;
+
+}
+.profile{
+    text-align: center;
+}
+img{
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.name .p{
+    margin-top: 3px;
+    text-align: center;
+}
+i{
+    color: black;
+}
+
+.menu{
+    padding: 15px;
+    margin: 5px;
+    
+}
+
+.menu_list ul{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+ .about h2{
+   padding: 10px;
+   margin: 10px;
+}
+
+.profile_description{
+    margin-top: 5px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+i{
+    font-size:20px;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.skills{
+    padding: 10px;
+    
+}
+
+.skills h2{
+    margin: 10px;
+}
+
+
+
+.skills_list li{
+    margin:5px;
+    padding: 5px;
+}
+
+.skills ul{
+    list-style-type: circle;
+}
+
+.right{
+   width: 100%;
+   padding-left: 30px;
+   background-color:rgba(255, 255, 255, 0.836);
+    }
+.experience{
+    margin:20px;
+}
+.daku{
+list-style-type: none;
+
+}
+
+.date{
+    margin: 10px;
+}
+.year{
+    text-align: right;
+}
+
+.title{
+    margin: 10px;
+    text-decoration: underline;
+    width: 100%;
+    display: block
+}
+
+h2 .skills_name{
+    text-decoration: none;
+    
+}
+
+.description{
+    line-height: 30px;
+    width: 100%;
+}
+
+.info{
+    padding: 10px;
+}
+.school{
+    padding-left: 30px;
+}
+.intrests{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.intrests i{
+    margin: 10px;
+}
